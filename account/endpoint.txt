@@ -1,0 +1,9 @@
+
+Liste des endpoints:
+
+inscription: http://127.0.0.1:8000/account/api/register/
+[username, first_name, last_name, email, password]
+
+connexion: 
+        - Token connexion: http://127.0.0.1:8000/account/api/token/login/
+        - Token raffraichissement: http://127.0.0.1:8000/account/api/token/refresh/
